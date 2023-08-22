@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.5.2" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheWildNature_Domain\TheWildNature.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\Food\Validators\" />
+    <Folder Include="Dtos\Kitchen\KitchenPlaceDetails\Validators\" />
+    <Folder Include="Dtos\Order\Validators\" />
+    <Folder Include="Dtos\Wallet\Validators\" />
+    <Folder Include="Features\Food\Handler\Commands\" />
+    <Folder Include="Features\Food\Handler\Queries\" />
+    <Folder Include="Features\Food\Request\Commands\" />
+    <Folder Include="Features\Food\Request\Queries\" />
+    <Folder Include="Features\Kitchen\FinancialInfo\Handler\Queries\" />
+    <Folder Include="Features\Kitchen\FinancialInfo\Request\Queries\" />
+    <Folder Include="Features\Kitchen\KitchenLicence\Handler\Queries\" />
+    <Folder Include="Features\Kitchen\KitchenLicence\Request\Queries\" />
+    <Folder Include="Features\Kitchen\KitchenManager\Request\Commands\" />
+    <Folder Include="Features\Order\Handler\Commands\" />
+    <Folder Include="Features\Order\Handler\Queries\" />
+    <Folder Include="Features\Order\Request\Commands\" />
+    <Folder Include="Features\Order\Request\Queries\" />
+    <Folder Include="Features\PlaceDetails\Handler\Commands\" />
+    <Folder Include="Features\PlaceDetails\Handler\Queries\" />
+    <Folder Include="Features\PlaceDetails\Request\Commands\" />
+    <Folder Include="Features\PlaceDetails\Request\Queries\" />
+    <Folder Include="Features\Wallet\Handler\Commands\" />
+    <Folder Include="Features\Wallet\Handler\Queries\" />
+    <Folder Include="Features\Wallet\Request\Commands\" />
+    <Folder Include="Features\Wallet\Request\Queries\" />
+  </ItemGroup>
+
+</Project>
