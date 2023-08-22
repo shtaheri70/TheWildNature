@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/TheWildNature.API/bin/Debug/net7.0
+/TheWildNature.API/obj
+/TheWildNature.Application/bin/Debug/net7.0
+/TheWildNature.Application/obj
+/TheWildNature.Infrastructure/bin/Debug/net7.0
+/TheWildNature.Infrastructure/obj
+/TheWildNature.MVC/bin/Debug/net7.0
+/TheWildNature.MVC/obj
+/TheWildNature.Persintence/bin/Debug/net7.0
+/TheWildNature.Persintence/obj
+/TheWildNature_Domain/bin/Debug/net7.0
+/TheWildNature_Domain/obj
